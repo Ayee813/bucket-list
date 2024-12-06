@@ -21,10 +21,6 @@ class Bucket {
   String job;
   bool isDone;
   Bucket(this.job, this.isDone);
-
-  // void myfun() {
-  //   print(_job);
-  // }
 }
 
 class HomePage extends StatefulWidget {
@@ -44,17 +40,6 @@ class _HomePageState extends State<HomePage> {
     Bucket("Gamer", true),
     Bucket("Programer", true)
   ];
-
-  // var bucket = Bucket(job, isDone)
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   var bucket = Bucket();
-  //   bucket.myfun();
-  //   bucket.isDone = false;
-  //   print(bucket.isDone);
-  // }
 
   @override
   Widget build(BuildContext context) {
